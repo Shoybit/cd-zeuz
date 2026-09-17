@@ -1,6 +1,7 @@
 import BlogGrid from "@/components/BlogGrid";
 import BlogSection from "@/components/BlogSection";
 import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Subscribe from "@/components/Subscribe";
@@ -14,6 +15,7 @@ export default function Home() {
       <BlogGrid />
       <Subscribe />
       <CTA />
+      <Footer />
     </>
   );
 }

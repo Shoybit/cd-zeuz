@@ -62,7 +62,7 @@ export default function BlogSection() {
 
         {/* Featured Blog  */}
         <Link
-          href="/#"
+          href="/blog/top-10-ai-features"
           className="flex flex-col h-full rounded-xl border border-[#E4E4E7] p-2.5 transition hover:shadow-md"
         >
           <div className="overflow-hidden rounded-lg max-h-75 sm:max-h-90 lg:max-h-none">
@@ -102,7 +102,7 @@ export default function BlogSection() {
             {featuredPosts.map((post) => (
               <Link
                 key={post.slug}
-                href={`/#/${post.slug}`}
+                href={`/blog/${post.slug}`}
                 className="flex flex-1 min-h-30 sm:min-h-32.5 gap-3 sm:gap-4 rounded-[10px] border border-[#E4E4E7] p-2.5 sm:p-3 transition hover:shadow-sm"
               >
                 <div className="flex min-w-0 flex-1 flex-col justify-between py-0.5">
